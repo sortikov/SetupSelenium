@@ -4,6 +4,8 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import java.util.prefs.Preferences;
+
 
 public class SeleniumClassSetup {
 
@@ -21,6 +23,8 @@ public class SeleniumClassSetup {
         WebDriver d2 = new FirefoxDriver();
 
         d2.get ("http://google.com");
+
+        System.out.println("Hi there. This is change to my code");
 
 
     }
