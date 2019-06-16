@@ -24,7 +24,7 @@ public class SeleniumClassSetup {
 
         d2.get ("http://google.com");
 
-        System.out.println("Hi there. This is change to my code. this one is to be sent through Intellij");
+        System.out.println("Hi there. This is change to my code. this one is to be sent through GitHub");
 
 
     }
